@@ -5,7 +5,7 @@ Este projeto gera palpites aleatórios para a Mega Sena, com números únicos e 
 ## 📂 Estrutura do Projeto
 
 ```
-mega-sena-palpite/
+palpites-mega-sena/
 │── 📄 .gitignore
 │── 📄 README.md
 │── 📄 mega_sena.py
