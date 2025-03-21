@@ -8,7 +8,7 @@ Este projeto gera palpites aleatórios para a Mega Sena, com números únicos e 
 palpites-mega-sena/
 │── 📄 .gitignore
 │── 📄 README.md
-│── 📄 mega_sena.py
+│── 📄 palpite_mega_sena.py
 └── 📂 tests/
     └── 📄 test_mega_sena.py
 ```
@@ -24,7 +24,7 @@ palpites-mega-sena/
 
 2. Execute o script:
    ```bash
-   python mega_sena.py
+   python palpite_mega_sena.py
    ```
 
 3. Insira a quantidade de jogos desejada e receba os números sorteados.
@@ -40,7 +40,7 @@ pytest tests/
 
 # Arquivos do Projeto
 
-## `mega_sena.py`
+## `palpite_mega_sena.py`
 
 ```python
 from random import randint
@@ -80,7 +80,7 @@ print('-=-' * 3, ' BOA SORTE 🤞🤩 ', '-=-' * 3)
 
 ```python
 import pytest
-from mega_sena import randint
+from palpite_mega_sena import randint
 
 def test_randint_range():
     num = randint(1, 61)
