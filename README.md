@@ -17,8 +17,9 @@ mega-sena-palpite/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/mega-sena-palpite.git
-   cd mega-sena-palpite
+    git clone https://github.com/LuanBrito01/palpites-mega-sena.git
+    cd palpites-mega-sena
+
    ```
 
 2. Execute o script:
